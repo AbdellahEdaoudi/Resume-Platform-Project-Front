@@ -185,13 +185,13 @@ function Messages({ selectedUser }) {
                 href={`/${selectedUser?.username}`}
                 className="cursor-pointer hover:scale-105 duration-300 flex gap-2 items-center"
               >
-                <div className="w-12 h-12 border-2 border-green-500 rounded-full flex-shrink-0 overflow-hidden">
+                <div className="w-12 h-12 min-w-[48px] border-2 border-green-500 rounded-full flex-shrink-0 overflow-hidden">
                   <Image
                     width={96} 
                     height={96} 
                     src={selectedUser?.urlimage}
                     alt="Profile Image"
-                    className="object-cover"
+                    className="w-full h-full aspect-square object-cover"
                   />
                 </div>
                 <p className="font-bold line-clamp-1">

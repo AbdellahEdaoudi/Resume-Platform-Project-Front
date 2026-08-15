@@ -223,7 +223,7 @@ function NameUser() {
                   <Image
                     src={Imageprofil || urlimage}
                     alt="Profile Image"
-                    className="rounded-full w-40 h-40 object-cover mb-4 border-4 border-green-500 shadow-lg"
+                    className="w-40 h-40 min-w-[160px] aspect-square rounded-full object-cover mb-4 border-4 border-green-500 shadow-lg"
                     width={160}
                     height={160}
                   />

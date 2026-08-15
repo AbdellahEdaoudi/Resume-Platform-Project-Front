@@ -154,7 +154,7 @@ const filteredUserDetails = userDetails
                   >
                     <div className="flex items-center gap-2">
                       <Image
-                        className="rounded-full border-2 border-amber-400"
+                        className="w-[35px] h-[35px] min-w-[35px] aspect-square object-cover rounded-full border-2 border-amber-400"
                         src={userr.urlimage}
                         width={35}
                         height={35}
@@ -394,7 +394,7 @@ const filteredUserDetails = userDetails
                   height={40}
                   src={nt.fromimg}
                   alt="Sender Image"
-                  className="w-10 h-10 rounded-full mr-3"
+                  className="w-10 h-10 min-w-[40px] aspect-square object-cover rounded-full mr-3"
                 />
                 <div>
                   <nav className="flex gap-2 items-center">
@@ -531,7 +531,7 @@ const filteredUserDetails = userDetails
                     height={50}
                     src={user.urlimage}
                     alt={user.fullname}
-                    className="rounded-full mr-2 border-2 border-gray-200"
+                    className="w-12 h-12 min-w-[48px] aspect-square object-cover rounded-full mr-3 border-2 border-gray-200"
                   />
                   <div className="flex-1">
                     <p

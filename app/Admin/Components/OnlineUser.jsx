@@ -96,7 +96,7 @@ function OnlineUser() {
                     onClick={() => router.push(`/${user.username}`)}
                     src={user.urlimage}
                     alt={user.fullname}
-                    className={`${user.isOnline ? "border-green-500" : "border-gray-600"} border-4 w-14 cursor-pointer hover:scale-105 duration-300 h-14 rounded-full object-cover mr-3`}
+                    className={`${user.isOnline ? "border-green-500" : "border-gray-600"} border-4 w-14 h-14 min-w-[56px] aspect-square flex-shrink-0 cursor-pointer hover:scale-105 duration-300 rounded-full object-cover mr-3`}
                   />
                   <div className={`w-4 h-4 absolute bottom-1 right-4 ${user.isOnline ? "bg-green-500" : "bg-gray-600"} rounded-full`}></div>
                   </div>

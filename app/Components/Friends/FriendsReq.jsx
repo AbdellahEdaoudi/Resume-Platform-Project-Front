@@ -120,7 +120,7 @@ return (
                                             alt={`${filtUser?.username}`}
                                             width={40}
                                             height={40}
-                                            className="rounded-full cursor-pointer"
+                                            className="w-10 h-10 min-w-[40px] aspect-square object-cover rounded-full cursor-pointer"
                                         />
                                         <div>
                                             <span className="block font-bold text-xs md:text-sm  break-all line-clamp-1">

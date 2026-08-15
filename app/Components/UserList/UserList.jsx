@@ -114,17 +114,13 @@ function UserList({ selectedUser, setSelectedUser }) {
                         cursor-pointer rounded-lg transition 
                         ${selectedUser && selectedUser.email === User.email ? 
                         "bg-gray-700" : ""}`} >
-                      <div className="relative w-12 h-12">
-                        <div className="">
-                          <Image
-                            src={User.urlimage}
-                            alt="Profile"
-                            className="rounded-full w-auto h-auto"
-                            width={60} height={60}
-                            
-                          />
-                          {/* <div className={` ${User.isOnline === false ? "bg-gray-500": "bg-green-500"} absolute w-2 h-2 rounded-full left-2 top-0`}></div> */}
-                        </div>
+                      <div className="relative w-12 h-12 flex-shrink-0">
+                        <Image
+                          src={User.urlimage}
+                          alt="Profile"
+                          className="w-12 h-12 min-w-[48px] aspect-square object-cover rounded-full"
+                          width={60} height={60}
+                        />
                       </div>
                       <div className="flex flex-col">
                       <p
@@ -168,7 +164,7 @@ function UserList({ selectedUser, setSelectedUser }) {
                           <Image
                             src={User.urlimage}
                             alt="Profile"
-                            className="rounded-full w-auto h-auto"
+                            className="w-12 h-12 min-w-[48px] aspect-square object-cover rounded-full"
                             width={60} height={60}
                           />
                         </div>

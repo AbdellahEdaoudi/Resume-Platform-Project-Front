@@ -131,14 +131,14 @@ function GetUserByUsername({ params }) {
                 height={140}
                 src={userDetailsG.urlimage || "/prifil Loading.png"}
                 alt="Profile Image"
-                className="object-cover md:block sm:block hidden cursor-pointer border-4 border-green-600 shadow-lg rounded-full duration-500"
+                className="w-[140px] h-[140px] min-w-[140px] aspect-square object-cover md:block sm:block hidden cursor-pointer border-4 border-green-600 shadow-lg rounded-full duration-500"
               />
               <Image
                 width={100}
                 height={100}
                 src={userDetailsG.urlimage || "/prifil Loading.png"}
                 alt="Profile Image"
-                className="object-cover md:hidden sm:hidden block cursor-pointer border-4 border-green-600 shadow-lg rounded-full duration-500"
+                className="w-[100px] h-[100px] min-w-[100px] aspect-square object-cover md:hidden sm:hidden block cursor-pointer border-4 border-green-600 shadow-lg rounded-full duration-500"
               />
             </div>
 

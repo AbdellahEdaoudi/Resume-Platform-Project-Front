@@ -101,7 +101,7 @@ const CreateProfile = () => {
                 width={100}
                 height={100}
                 src={UrlImage}
-                className="rounded-full w-28 h-28 object-cover border-4 border-purple-500 shadow-lg"
+                className="w-28 h-28 min-w-[112px] aspect-square rounded-full object-cover border-4 border-purple-500 shadow-lg"
                 alt="User profile"
               />
             ) : (

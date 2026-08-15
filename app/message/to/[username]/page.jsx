@@ -191,7 +191,7 @@ function UserProfile({ params }) {
                     <Image
                       src={userDname.urlimage}
                       alt="Profile"
-                      className="rounded-full"
+                      className="w-12 h-12 min-w-[48px] aspect-square object-cover rounded-full"
                       width={48}
                       height={48}
                     />
